@@ -70,7 +70,10 @@ python main.py
 
 ### 🔧 Optional Configuration
 
-- If you're hitting **Gemini API quota**, increase the `time.sleep()` in `generate_answer()` inside `answer_generator.py`.
+- If you're hitting **Gemini API quota**, edit this line in `answer_generator.py`:
+    ```python
+  time.sleep(10)
+  ```
 - To change the number of patients processed:
   ```python
   res = evaluate_dataset(patient_ids[:50], synthea_path, privacy_level=level, G=G)
