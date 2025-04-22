@@ -12,7 +12,7 @@ The system generates patient-specific questions, retrieves relevant subgraphs fr
 
 ```bash
 git clone https://github.com/TDogaNazli/SecureRAG.git
-cd SecureMed-RAG
+cd SecureRAG
 ```
 
 ### 2. Python Setup
