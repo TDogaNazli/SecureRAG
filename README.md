@@ -30,8 +30,13 @@ pyenv local 3.9.22
 
 Then create and activate a virtual environment:
 ```bash
-python3 -m venv .myenv
+python3.9 -m venv .myenv
 source .myenv/bin/activate
+```
+
+Make sure that your pip package is upgraded:
+```bash
+pip install --upgrade pip
 ```
 
 Install dependencies:
