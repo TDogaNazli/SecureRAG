@@ -1,0 +1,24 @@
+{
+    "overall": {
+        "LLM_only_accuracy": 0.40816326530612246,
+        "RAG_accuracy": 0.5714285714285714,
+        "improvement": 0.16326530612244894,
+        "groundedness": 0
+    },
+    "by_question_type": {
+        "risk_assessment": {
+            "LLM_only_accuracy": 0.6190476190476191,
+            "RAG_accuracy": 0.6666666666666666,
+            "improvement": 0.04761904761904756,
+            "groundedness": 0.6666666666666666,
+            "num_questions": 42
+        },
+        "symptom_progression": {
+            "LLM_only_accuracy": 0.25,
+            "RAG_accuracy": 0.5,
+            "improvement": 0.25,
+            "groundedness": 0.5,
+            "num_questions": 56
+        }
+    }
+}
