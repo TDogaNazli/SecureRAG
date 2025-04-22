@@ -11,7 +11,7 @@ The system generates patient-specific questions, retrieves relevant subgraphs fr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/TDogaNazli/SecureMed.git
+git clone https://github.com/TDogaNazli/SecureRAG.git
 cd SecureMed-RAG
 ```
 
