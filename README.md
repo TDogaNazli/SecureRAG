@@ -17,12 +17,25 @@ cd SecureRAG
 
 ### 2. Python Setup
 
-This project uses **Python 3.9.22**. You can use `pyenv` or any other version manager to install it.
-
+This project uses **Python 3.9.22**. You can check with:
 ```bash
-python3 --version  # should be 3.9+
+python3 --version
+```
+
+If needed, install it using pyenv:
+```bash
+pyenv install 3.9.22
+pyenv local 3.9.22
+```
+
+Then create and activate a virtual environment:
+```bash
 python3 -m venv .myenv
 source .myenv/bin/activate
+```
+
+Install dependencies:
+```bash
 pip install -r requirements.txt
 ```
 
